@@ -1,5 +1,5 @@
 {
-  "name": "markdownpaywalldotcom-api",
+  "name": "markdown-paywall-api",
   "version": "0.1.0",
   "description": "Markdown Paywall API.",
   "main": "index.js",
