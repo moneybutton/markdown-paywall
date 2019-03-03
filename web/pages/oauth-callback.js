@@ -1,5 +1,5 @@
 import { getUser, updateUser } from '../util/api'
-import { MoneyButtonClient, AuthError as MoneyButtonAuthError } from '@moneybutton/client'
+import { MoneyButtonClient, AuthError as MoneyButtonAuthError } from '@moneybutton/api-client'
 import Layout from '../components/Layout'
 import React from 'react'
 import Router from 'next/router'

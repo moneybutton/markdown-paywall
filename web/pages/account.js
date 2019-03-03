@@ -1,5 +1,5 @@
 import { getUser } from '../util/api'
-import { MoneyButtonClient } from '@moneybutton/client'
+import { MoneyButtonClient } from '@moneybutton/api-client'
 import ErrorDisplay from '../components/ErrorDisplay'
 import InfoDisplay from '../components/InfoDisplay'
 import Layout from '../components/Layout'
