@@ -1,6 +1,6 @@
 # Money Button: Paywall Example
 
-Example application showing how to build a paywall using [Money Button](https://moneybutton.com).
+Example application showing how to use [Money Button](https://moneybutton.com) for pay walls, webhooks, and OAuth.
 
 ## Public Demo
 
