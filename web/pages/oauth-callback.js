@@ -7,7 +7,7 @@ import Router from 'next/router'
 /**
  *
  */
-const CLIENT_IDENTIFIER = process.env.CLIENT_IDENTIFIER
+const OAUTH_IDENTIFIER = process.env.OAUTH_IDENTIFIER
 
 /**
  *
@@ -68,7 +68,7 @@ export default class PageAccount extends React.Component {
     let { moneyButtonClient } = this.state
     if (moneyButtonClient === null) {
       moneyButtonClient = new MoneyButtonClient(
-        CLIENT_IDENTIFIER
+        OAUTH_IDENTIFIER
       )
       await this.forceStateUpdate({ moneyButtonClient })
     }

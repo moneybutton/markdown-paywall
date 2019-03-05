@@ -9,7 +9,7 @@ import React from 'react'
 /**
  *
  */
-const CLIENT_IDENTIFIER = process.env.CLIENT_IDENTIFIER
+const OAUTH_IDENTIFIER = process.env.OAUTH_IDENTIFIER
 const OAUTH_REDIRECT_URI = process.env.OAUTH_REDIRECT_URI
 
 /**
@@ -64,7 +64,7 @@ export default class PageAccount extends React.Component {
     let { moneyButtonClient } = this.state
     if (moneyButtonClient === null) {
       moneyButtonClient = new MoneyButtonClient(
-        CLIENT_IDENTIFIER
+        OAUTH_IDENTIFIER
       )
       await this.forceStateUpdate({ moneyButtonClient })
     }
