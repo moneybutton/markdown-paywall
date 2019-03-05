@@ -4,7 +4,22 @@ Example application showing how to build a paywall using [Money Button](https://
 
 ## Demo
 
-You can try out a running demo of the app at this location: https://markdownpaywall.com
+To run a demo of Markdown Paywall, first clone the repo to your computer.
+
+Next, create an [app for testing](https://docs.moneybutton.com/docs/api-apps.html).
+
+Then you will want to create two .env files:
+
+First, copy <code>api/.env.example</code> to <code>api/.env</code> and set the <code>WEBHOOK_SECRET</code> variable to be the same as your app.
+
+Second, copy <code>web/.env.example</code> to <code>web/.env</code> and set <code>CLIENT_IDENTIFIER</code> to be the same as your app.
+
+Now you can install Markdown Paywall and run it with these commands:
+
+```
+yarn
+yarn dev
+```
 
 ## Index
 

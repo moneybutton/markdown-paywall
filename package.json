@@ -8,6 +8,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "install": "cd api && yarn && cd ../web && yarn && cd ..",
     "dev": "concurrently --names api,web 'cd api && yarn dev' 'cd web && yarn dev'"
   },
   "dependencies": {
