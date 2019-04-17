@@ -12,7 +12,7 @@
     "dev": "concurrently --names api,web 'cd api && yarn dev' 'cd web && yarn dev'"
   },
   "dependencies": {
-    "@moneybutton/api-client": "0.21.4"
+    "@moneybutton/api-client": "0.21.5"
   },
   "devDependencies": {
     "concurrently": "4.1.0"

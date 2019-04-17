@@ -9,15 +9,15 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@moneybutton/api-client@0.21.4":
-  version "0.21.4"
-  resolved "https://registry.yarnpkg.com/@moneybutton/api-client/-/api-client-0.21.4.tgz#f032600c5a758ec457c8ccb7d55b1e1129416dc9"
-  integrity sha512-1Ii8ntrkFmujFZLxbcmL870970p+nQQdNxSiHq+ro9NdwZ8Cqm2XzedgbZcQhJ4obcZn/Kh1mB6xmq2D76D5aA==
+"@moneybutton/api-client@0.21.5":
+  version "0.21.5"
+  resolved "https://registry.yarnpkg.com/@moneybutton/api-client/-/api-client-0.21.5.tgz#1b48d37b0db6526d2a60efbcb6b27ce997083821"
+  integrity sha512-dEVNithUEZpTyKDJstUzlpXl9qIapNtYQeA1aCwYZobgOhJzv974Ygbj/cqQilnwMlGKTo1l3kuimDPYpRJWjg==
   dependencies:
     "@babel/runtime" "7.0.0"
-    "@moneybutton/config" "^0.21.3"
-    "@moneybutton/json-api" "^0.21.3"
-    "@moneybutton/logger" "^0.21.3"
+    "@moneybutton/config" "^0.21.5"
+    "@moneybutton/json-api" "^0.21.5"
+    "@moneybutton/logger" "^0.21.5"
     "@trust/webcrypto" "0.9.2"
     http-status-codes "1.3.0"
     isomorphic-fetch "2.2.1"
@@ -27,28 +27,28 @@
     uuid "3.3.2"
     window "4.2.5"
 
-"@moneybutton/config@^0.21.3":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@moneybutton/config/-/config-0.21.3.tgz#f3308cf6c95aef26d088157054d1962b0b776694"
-  integrity sha512-nLkCvum8cNwQ+bqjQfSKh9GEYln6bwctv34dBkHgyGKwpEpTSoZCBRVVv785kQIpKpO0i9sGIhMiTwnJcroB8w==
+"@moneybutton/config@^0.21.5":
+  version "0.21.5"
+  resolved "https://registry.yarnpkg.com/@moneybutton/config/-/config-0.21.5.tgz#704fc521bf0842facaac77a09a665c4312f31053"
+  integrity sha512-Nk3D+wyOQCvCuYBK9Q8Q5sCQfGeZM0Sz+z5eeh+2TmD3Aqz0crCjj3GZc1S4GqWbLGc84za7bWh0EcLjTHBIvQ==
   dependencies:
     "@babel/runtime" "7.0.0"
 
-"@moneybutton/json-api@^0.21.3":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@moneybutton/json-api/-/json-api-0.21.3.tgz#05bd419d0156bef6188ecb64eedcf71a83781ee9"
-  integrity sha512-bRl2BT5CarUBWj7YfCu2oXVJpWfw28n4midt6dyXAy4b94RycEawXJ4csRqXaqZaqwx7ZObu7ysIShi1FQu8Wg==
+"@moneybutton/json-api@^0.21.5":
+  version "0.21.5"
+  resolved "https://registry.yarnpkg.com/@moneybutton/json-api/-/json-api-0.21.5.tgz#4959b5fe9cfdecbd02f7a96af424dc0c933cf65d"
+  integrity sha512-Ke2JrqGNGSlRkwHgVUoSoXS+SxhOvcDFmI2eLTT+qvrk4dqVWVqunpSW4jOJiYVgX2YsGQQx7J0AVmL87UHOkA==
   dependencies:
     "@babel/runtime" "7.0.0"
     query-string "6.1.0"
 
-"@moneybutton/logger@^0.21.3":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@moneybutton/logger/-/logger-0.21.3.tgz#bf3da3dbc1cddfd3b2070d3bb5c25d701be7cd2c"
-  integrity sha512-luanZllRaix3uT7keK/W/NEfj23xoUgVuwmViI8NAMFej4Y2qGaUEsaaSGstZcGw0c11/7GFPtIODXoPx3ygOw==
+"@moneybutton/logger@^0.21.5":
+  version "0.21.5"
+  resolved "https://registry.yarnpkg.com/@moneybutton/logger/-/logger-0.21.5.tgz#a79362a7025b9797770cff15f3631a811174cd56"
+  integrity sha512-krHSKDIcDsHhM7md1o5ynczQ4Fqo4LHo5MOduFmEZYkxfD+tzm+/A7j64taQJTNa4DrVKrjr4lpitSoQnDz5Yg==
   dependencies:
     "@babel/runtime" "7.0.0"
-    "@moneybutton/config" "^0.21.3"
+    "@moneybutton/config" "^0.21.5"
     loglevel "1.6.1"
 
 "@trust/keyto@^0.3.4":
