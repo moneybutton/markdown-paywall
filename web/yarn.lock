@@ -703,37 +703,37 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@moneybutton/config@^0.21.2", "@moneybutton/config@^0.21.3":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@moneybutton/config/-/config-0.21.3.tgz#f3308cf6c95aef26d088157054d1962b0b776694"
-  integrity sha512-nLkCvum8cNwQ+bqjQfSKh9GEYln6bwctv34dBkHgyGKwpEpTSoZCBRVVv785kQIpKpO0i9sGIhMiTwnJcroB8w==
+"@moneybutton/config@^0.21.9":
+  version "0.21.9"
+  resolved "https://registry.yarnpkg.com/@moneybutton/config/-/config-0.21.9.tgz#bec594364f4686bc6de43296ccbbf2bda4388c78"
+  integrity sha512-9ENpDKD/5W/FTZ4iYZHnE6JbXhwAzM7NXflmbAp5jZ3K3V1wbxx2cReNon1ZAx4lQYYTYhhxsyn7WpmkUFN+9Q==
   dependencies:
     "@babel/runtime" "7.0.0"
 
-"@moneybutton/logger@^0.21.2":
-  version "0.21.3"
-  resolved "https://registry.yarnpkg.com/@moneybutton/logger/-/logger-0.21.3.tgz#bf3da3dbc1cddfd3b2070d3bb5c25d701be7cd2c"
-  integrity sha512-luanZllRaix3uT7keK/W/NEfj23xoUgVuwmViI8NAMFej4Y2qGaUEsaaSGstZcGw0c11/7GFPtIODXoPx3ygOw==
+"@moneybutton/logger@^0.21.9":
+  version "0.21.9"
+  resolved "https://registry.yarnpkg.com/@moneybutton/logger/-/logger-0.21.9.tgz#92996d5cfb27af0881b84112577fc17d4054bc3d"
+  integrity sha512-ILXnPpx3NTUrs40Dh74v03WiZHYH5+Bn5YoZuIpEbIZ0EPxDXY8lAnt/WoIAV56krD84xZ9cfgJpiI4BZ+JeYQ==
   dependencies:
     "@babel/runtime" "7.0.0"
-    "@moneybutton/config" "^0.21.3"
+    "@moneybutton/config" "^0.21.9"
     loglevel "1.6.1"
 
-"@moneybutton/postmessage-client@^0.21.2":
-  version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@moneybutton/postmessage-client/-/postmessage-client-0.21.2.tgz#5961164dda2a0f23c057335ea9c552826c88d5a9"
-  integrity sha512-eUpozAnl5xr9RSqebggeCRsuBfGqTyrPel53gxHdf2xt/LqnxEs5KiIKJJ1wKP26m3WsvhoSmV54d/yGX8PMHg==
+"@moneybutton/postmessage-client@^0.21.9":
+  version "0.21.9"
+  resolved "https://registry.yarnpkg.com/@moneybutton/postmessage-client/-/postmessage-client-0.21.9.tgz#df50fc0bd1d87603f52b1628881e4d2ff821f9f9"
+  integrity sha512-kXu7FpMlpyNIk0kW7jkI4jVKYXS9kDcXf8M2dGbvIg01ZG++Rp26gXg1zNzk7Mvoxm9G2DcU3QFuCKgQsEQvUg==
   dependencies:
     "@babel/runtime" "7.0.0"
-    "@moneybutton/config" "^0.21.2"
-    "@moneybutton/logger" "^0.21.2"
+    "@moneybutton/config" "^0.21.9"
+    "@moneybutton/logger" "^0.21.9"
 
-"@moneybutton/react-money-button@^0.21.2":
-  version "0.21.2"
-  resolved "https://registry.yarnpkg.com/@moneybutton/react-money-button/-/react-money-button-0.21.2.tgz#5a6c58decd8d00ed0271ca11c9214501b53b1a0a"
-  integrity sha512-ZqX/x+fOWcbCGh21gZ733EvgHwv91y0U1VHEJzpHGvyvhwEpvnGjRHzM5+kcp/dbh9uH8mD6eo2ynO9EfaJyCQ==
+"@moneybutton/react-money-button@0.21.9":
+  version "0.21.9"
+  resolved "https://registry.yarnpkg.com/@moneybutton/react-money-button/-/react-money-button-0.21.9.tgz#46cdf96d6bdf6e6dc06a728421b0dff7c7804c87"
+  integrity sha512-3wP3zijUCCRMBOWXOlQXQjGUVmj4qusCcmQyH7aEB0vn4Ddn5d8CBs/NBw79FNpsUODpsWQ0kIq7O4YRzEpeMg==
   dependencies:
-    "@moneybutton/postmessage-client" "^0.21.2"
+    "@moneybutton/postmessage-client" "^0.21.9"
     create-react-library "^2.1.0"
     query-string "6.1.0"
 

@@ -23,7 +23,7 @@
     "response-time": "2.3.2"
   },
   "devDependencies": {
-    "@moneybutton/react-money-button": "^0.21.2",
+    "@moneybutton/react-money-button": "0.21.9",
     "@zeit/next-css": "1.0.1",
     "now": "^14.0.3",
     "react-marked-markdown": "1.4.6",
